@@ -1,4 +1,7 @@
-export default function(/* server */) {
+export default function(server) {
+
+  server.create('book', { title: 'Intro to Ember' });
+  server.create('book', { title: 'Ember-Data Advanced' });
 
   /*
     Seed your development database using your factories.
